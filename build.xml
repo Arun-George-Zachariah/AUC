@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<project name="AUC" default="jar">
+
+	<target name="clean">
+		<delete dir="build/" />
+	</target>
+
+	<target name="init">
+		<mkdir dir="build/classes"/>
+	</target>
+
+	<target name="compile" depends="clean, init" >
+		<javac destdir="build/classes" debug="true" srcdir="src"/>
+	</target>
+
+	<target name="build" depends="compile">
+		<jar destfile="build/jar/auc.jar" basedir="build/classes">
+			<manifest>
+				<attribute name="Main-Class" value="auc.AUCCalculator" />
+			</manifest>
+		</jar>
+	</target>
+
+</project>
