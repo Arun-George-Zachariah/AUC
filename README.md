@@ -19,7 +19,8 @@ When FILE_TYPE is list i.e ```prob(example == true)  true_classification(1 == po
 ```java -jar auc.jar <FILE_NAME> list <MIN_RECALL>```
 
 ## References
-[Original AUCCalculator Jar](http://mark.goadrich.com/programs/AUC/)
+* [Original AUCCalculator Jar](http://mark.goadrich.com/programs/AUC/)
+* [Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course/classification/roc-and-auc)
 
 ## To Cite
 Davis, Jesse, and Mark Goadrich. "The relationship between Precision-Recall and ROC curves." In Proceedings of the 23rd international conference on Machine learning, pp. 233-240. 2006. [[PDF](http://mark.goadrich.com/articles/davisgoadrichcamera2.pdf)]
