@@ -1,7 +1,14 @@
 # AUC
 Area Under the Receiver Operating Characteristic (ROC) Curve (AUC) is one of the most important metric for evaluating a classification model, providing an aggregate measure of performance across all possible classification threshold.
 
-# Build
+## Environment Setup
+Requirements:
+   * [Java](https://www.java.com/en/download/) (version = 1.8)
+   * [Python](https://www.python.org/) (version = 3.6)
+   * [Ant](https://ant.apache.org)
+   * [Matplotlib](https://matplotlib.org)
+
+## Build
 `ant build`
 
 ## Usage
@@ -17,6 +24,10 @@ Area Under the Receiver Operating Characteristic (ROC) Curve (AUC) is one of the
 
 When FILE_TYPE is list i.e ```prob(example == true)  true_classification(1 == positive, 0 = negative)```                        
 ```java -jar auc.jar <FILE_NAME> list <MIN_RECALL>```
+
+## Plot
+`python plot.py`
+
 
 ## References
 * [Original AUCCalculator Jar](http://mark.goadrich.com/programs/AUC/)
