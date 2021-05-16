@@ -25,8 +25,8 @@ Requirements:
 When FILE_TYPE is list i.e ```prob(example == true)  true_classification(1 == positive, 0 = negative)```                        
 ```java -jar auc.jar <FILE_NAME> list <MIN_RECALL>```
 
-## Plot
-`python plot.py`
+## Plot ROC and PR Curves
+`cd scripts && python plot.py <FILE_NAME>`
 
 
 ## References
